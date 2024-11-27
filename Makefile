@@ -98,9 +98,9 @@ $(LIBFT):
 
 $(MLX_DIR):
 	@git clone --depth=1 https://github.com/42Paris/minilibx-linux.git 
+	@rm -rf libraries/minilibx-linux/.git
 	@make -sC minilibx-linux 2> /dev/null
 	@mv minilibx-linux libraries/
-	@rm -rf libraries/minilibx-linux/.git
 
 clean:
 	@ $(RM) $(OBJS_DIR) gmon.out analise.txt 2> /dev/null
