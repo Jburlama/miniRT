@@ -10,7 +10,7 @@ Uatilla  Almeida - https://github.com/Uatilla
 
 
 # miniRT
-**My first RayTracer with miniLibX** the last C project from 42 Common Core Program. The main goal of this project is about implementing a [**raytracing algorithm**](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)). We must implement scene aspects as ambient lightining, camera, light, and objects (sphere, plane, cylinder, and cone (bonus only)).
+**My first RayTracer with miniLibX**. The main goal of this project is about implementing a [**raytracing algorithm**](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)). We must implement scene aspects as ambient lightining, camera, light, and objects (sphere, plane, cylinder, and cone (bonus only)).
 Besides these elements, we must apply moviments and rotations into the each element of the scene.
 
 
